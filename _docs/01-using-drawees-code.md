@@ -37,7 +37,7 @@ GenericDraweeHierarchy hierarchy = builder
 mSimpleDraweeView.setHierarchy(hierarchy);
 ```
 
-对于同一个View，请不要多次调用`setHierarchy`，即使这个View是可回收的。创建 DraweeHierarchy 的较为耗时的一个过程，应该多次利用。
+对于同一个View，请不要多次调用`setHierarchy`，即使这个View是可回收的。创建 DraweeHierarchy 是较为耗时的一个过程，应该多次利用。
 
 > **注意**：一个`DraweeHierarchy` 是不可以被多个 View 共用的！
 
